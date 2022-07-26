@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de compras 2.0</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/96e4c6db82.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <h1 class="my-4 text-4xl font-bold text-center ">#Carrito</h1>
+
+  <main id="contenedor-productos"
+    class="container flex flex-col flex-wrap justify-center gap-3 py-5 m-auto md:flex-row">
+
+  </main>
+  <div id="#contenedor-carrito" class="container flex flex-col max-w-5xl gap-4 mx-auto my-8 overflow-x-scroll ">
+    <table class="w-full text-center border-collapse ">
+      <thead class="text-sm text-white uppercase bg-green-400">
+        <tr>
+          <th class="py-2 px-7"></th>
+          <th class="py-2 px-7">Producto</th>
+          <th class="py-2 px-7">Precio</th>
+          <th class="py-2 px-7">Cantidad</th>
+          <th class="py-2 px-7">Eliminar</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <div id="total" class="flex gap-4 items-center">
+      <p class="font-bold">Total: $<span class="precioTotal">0</span></p>
+      <button class="px-6 py-2 font-semibold text-white bg-blue-600 rounded-md">Pagar</button>
+    </div>
+    <button id="vaciar-carrito"
+      class="px-4 py-1 text-lg font-semibold text-white bg-red-600 rounded-lg shadow md:w-80 md:m-auto">Vaciar
+      Carrito</button>
+  </div>
+
+
+
+  <script src="js/stock.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

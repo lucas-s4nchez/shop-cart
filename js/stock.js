@@ -1,0 +1,51 @@
+let stockProductos = [
+  {
+    id: 1,
+    imagen: "../img/product1.webp",
+    nombre: "Air Max SC",
+    precio: 15750,
+    cantidad: 1,
+  },
+  {
+    id: 2,
+    imagen: "../img/product2.webp",
+    nombre: "Court Legacy",
+    precio: 11200,
+    cantidad: 1,
+  },
+  {
+    id: 3,
+    imagen: "../img/product3.webp",
+    nombre: "Air Max 2017",
+    precio: 17500,
+    cantidad: 1,
+  },
+  {
+    id: 4,
+    imagen: "../img/product4.webp",
+    nombre: "Zoom",
+    precio: 23800,
+    cantidad: 1,
+  },
+  {
+    id: 5,
+    imagen: "../img/product6.webp",
+    nombre: "Zoom",
+    precio: 23800,
+    cantidad: 1,
+  },
+  {
+    id: 6,
+    imagen: "../img/product8.webp",
+    nombre: "Zoom blancas",
+    precio: 23800,
+    cantidad: 1,
+  },
+  {
+    id: 7,
+    imagen: "../img/product13.webp",
+    nombre: "Air Jordan 1 Mid",
+    precio: 39200,
+    cantidad: 1,
+  },
+];
