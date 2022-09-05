@@ -10,6 +10,8 @@ let total = 0;
 
 //Generar los productos en el html
 stockProductos.forEach((producto) => {
+  const a = document.createElement("a");
+  a.setAttribute("href", "../productDetails.html");
   const div = document.createElement("div");
   div.classList.add(
     "w-full",
@@ -27,7 +29,8 @@ stockProductos.forEach((producto) => {
     <button data-id='${producto.id}' class="agregar-carrito text-lg block font-semibold py-2 px-4 text-white bg-green-400 rounded-lg shadow ">Añadir al Carrito </button>
   </div>
   `;
-  contenedorProductos.appendChild(div);
+  a.appendChild(div);
+  contenedorProductos.appendChild(a);
 });
 
 //Eventos
